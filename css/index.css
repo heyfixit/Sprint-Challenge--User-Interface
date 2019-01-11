@@ -265,3 +265,6 @@ img.contactus_jumbo {
 #contactform {
     margin-bottom: 45px;
 }
+label, textarea{
+    display: block;
+}
