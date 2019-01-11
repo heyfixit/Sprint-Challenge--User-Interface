@@ -89,9 +89,9 @@ header nav a:first-child {
     margin-left: 0;
 }
 
-img.road-jumbo {
-    margin-bottom: 20px;
-}
+/* img.jumbo { */
+/*     margin-bottom: 20px; */
+/* } */
 
 p {
     line-height: 1.4;
@@ -106,7 +106,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -273,4 +273,35 @@ footer nav a {
 
 label, textarea{
     display: block;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+	width: 100%;
+    }
+
+    .about-page .mid-content section {
+	width: 100%;
+	text-align: center;
+    }
+
+    img.jumbo {
+	width: 100%;
+    }
+
+    header nav {
+	margin: 10px 0px 0;
+    }
+
+    header nav a {
+	color: black;
+	margin: 0px 10px;
+	text-decoration: none;
+    }
+
+    header nav a:not(:first-child) {
+	margin: 30px 0 0;
+	transition: background-color .2s;
+	padding: 10px 10px 5px;
+    }
 }
