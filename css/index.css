@@ -216,7 +216,7 @@ footer nav a {
     text-decoration: none;
 }
 
-.about-page section {
+.about-page section, .contact section {
     margin: 20px 20px 0;
 }
 
@@ -257,4 +257,11 @@ footer nav a {
 
 .about-page hr {
     border-top: 1px dashed black;
+}
+
+img.contactus_jumbo {
+    width: 800px;
+}
+#contactform {
+    margin-bottom: 45px;
 }
