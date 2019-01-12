@@ -220,7 +220,11 @@ footer nav a {
     margin: 20px 20px 0;
 }
 
-.about-page div.mid-content {
+.about-page section.mid-content {
+    margin: 0;
+}
+
+.about-page .mid-content {
     border-top: 1px dashed black;
     display: flex;
     justify-content: space-evenly;
@@ -231,7 +235,7 @@ footer nav a {
     margin-top: 15px;
 }
 
-.about-page .mid-content section {
+.about-page .mid-content div {
     padding: 0 0 20px;
     width: 370px;
     margin: 30px 0;
@@ -250,9 +254,9 @@ footer nav a {
     padding: 10px 20px;
 }
 
-.about-page section.work-together {
+.about-page div.work-together {
     border-bottom: none;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
 }
 
 .about-page hr {
